@@ -17,7 +17,7 @@ Controlling this toolhead is currently done using `leash`, a python libary for i
 | [M3 Nut](https://www.mcmaster.com/90591A250/) | 1 |
 | [M3 Threaded Rod](https://www.mcmaster.com/94595A215/) | 1 |
 | [Nema 8 Stepper Motor (The higher current rating the better)](https://www.amazon.com/s?k=nema+8+stepper+motor) | 1 |
-| [M2x6mm Socket Head Bolt](https://www.mcmaster.com/91290A013/) | 1 |
+| [M2x6mm Socket Head Bolt](https://www.mcmaster.com/91290A013/) | 4 |
 | [M3 Square Nut](https://www.mcmaster.com/97259A101/) | 1 |
 | [M3x18mm Socket Head Bolt](https://www.mcmaster.com/91290A121/) | 1 |
 | [3ml Luer Lock Syringe](https://www.mcmaster.com/7510A42/) | 1 |
