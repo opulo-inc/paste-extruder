@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  autobom_test:
+    runs-on: ubuntu-latest
+    name: A test job
+    steps:
+      - name: AutoBOM Export
+        id: start
+        uses: opulo-inc/autobom@latest
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The status was ${{ steps.start.outputs.out }}"

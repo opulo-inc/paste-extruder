@@ -1,0 +1,12 @@
+[project]
+name = "extrude"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "leash",
+]
+
+[tool.uv.sources]
+leash = { path = "../../../leash", editable = true }

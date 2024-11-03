@@ -2,7 +2,7 @@
 
 This repository contains the source for a prototype paste extruder head for the LumenPnP.
 
-![v4](./img/hero.gif)
+![paste extrusion](./img/hero.gif)
 
 **This is a prototype design. It is still in development.**
 
