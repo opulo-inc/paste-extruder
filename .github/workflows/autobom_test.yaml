@@ -1,4 +1,8 @@
-on: [push]
+on:
+    push:
+    workflow_dispatch:
+    release:
+      types: [ published ]
 
 jobs:
   autobom_test:
