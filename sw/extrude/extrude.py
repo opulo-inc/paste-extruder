@@ -1,18 +1,19 @@
 from leash import Lumen
 import sys
 
-lumen = Lumen()
+# This script is an example of how one might use the LumenPnP paste extruder to deposit material.
+# It heavily depends on leash as the interface with the machine. For more information on how leash works,
+# check out its source here: https://github.com/opulo-inc/leash
 
-if not lumen.connect():
-    lumen.log.error("Couldn't connect, exiting.")
-    sys.exit()
+# ----------------------------
+# Defining Positions
+# ----------------------------
 
-lumen.home()
+boardHeight = 11.5
 
-lumen.lightOn("TOP")
+boardOffset = [17.75, 2.25]
 
-boardHeight = 9.6
-
+# For this demo, pad locations are manually inputted. Ideally a utility generates these positions based on source.
 resistorPads = [
     [361.6, 216.2],
     [361.6, 214.4],
@@ -52,32 +53,54 @@ ledPads = [
 
 ]
 
-lumen.safeZ()
+# ----------------------------
+# Creating lumen instance, connecting, homing
+# ----------------------------
+
+lumen = Lumen()
+
+if not lumen.connect():
+    lumen.log.error("Couldn't connect, exiting.")
+    sys.exit()
+
+lumen.home()
+lumen.lightOn("TOP")
+
+# ----------------------------
+# Priming the extruder
+# ----------------------------
 
 lumen.goto(x=20, y=20)
+# bumping the current to 400ma
+lumen.sm.send("M906 B400")
 
-lumen.sm.send("G92 A0")
+lumen.sm.send("G92 B0")
 lumen.setSpeed(f=2000)
-lumen.sm.send("M906 A400")
-lumen.goto(a = lumen.position["a"] + 100 )
 
-lumen.sleep(2)
+# extrude 300 beyond current position
+lumen.goto(b = lumen.position["b"] - 300 )
+
+# allowing some ooze
+lumen.sleep(12)
+
+# ----------------------------
+# Depositing paste
+# ----------------------------
 
 lumen.setSpeed(f=50000)
-
 lumen.safeZ()
 
 for pos in resistorPads:
     # move above position
-    lumen.goto(x = pos[0], y = pos[1], z = lumen.parkZ)
+    lumen.goto(x = pos[0] + boardOffset[0], y = pos[1] + boardOffset[1], z = lumen.parkZ)
     # plunge to position
     lumen.goto(z = boardHeight)
 
     # extrude
     lumen.setSpeed(f=2000)
-    lumen.goto(a = lumen.position["a"] + 5 ) 
+    lumen.goto(b = lumen.position["b"] - 6 ) 
 
-    lumen.sleep(0.1)  
+    lumen.sleep(0.6)  
 
     # z back to safe z
     lumen.setSpeed(f=50000)
@@ -85,20 +108,18 @@ for pos in resistorPads:
 
 for pos in ledPads:
     # move above position
-    lumen.goto(x = pos[0], y = pos[1], z = lumen.parkZ)
+    lumen.goto(x = pos[0] + boardOffset[0] + 0.5, y = pos[1] + boardOffset[1] + 0.5, z = lumen.parkZ)
     # plunge to position
     lumen.goto(z = boardHeight)
 
     # extrude
     lumen.setSpeed(f=2000)
-    lumen.goto(a = lumen.position["a"] + 5 )
+    lumen.goto(b = lumen.position["b"] - 6 )
 
-    lumen.sleep(0.1)
+    lumen.sleep(0.6)
 
     # z back to safe z
     lumen.setSpeed(f=50000)
     lumen.goto(z = lumen.parkZ)
-    
-lumen.sm.send("M906 A100")
-lumen.idle()
 
+lumen.idle()

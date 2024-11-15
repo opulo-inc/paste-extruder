@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-leash = { path = "../../../leash", editable = true }
+leash = { git = "https://github.com/opulo-inc/leash.git" }
