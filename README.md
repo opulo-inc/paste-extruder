@@ -28,6 +28,7 @@ The source CAD for the extruder is designed as a replacement left nozzle. Howeve
 ## Install
 
 Installation and setup instructions can be found in this video:
+STILL IN WIP
 
 ## Help
 
