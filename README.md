@@ -6,11 +6,11 @@ This repository contains the source for a prototype paste extruder head for the 
 
 **This is a prototype design. It is still in development.**
 
-This extruder head is designed for solder paste and ink dispensing applications. It quickly and easily replaces the left toolhead on any version LumenPnP. It has been used to apply conductive ink and Loctite GC-10 solder paste onto PCBs.
+This extruder head is designed for solder paste and ink dispensing applications. It quickly and easily replaces the right toolhead on any version LumenPnP. It has been used to apply conductive ink and Loctite GC-10 solder paste onto PCBs.
 
 Controlling this toolhead is currently done using `leash`, a python libary for interfacing with the LumenPnP, which can be found [here](https://github.com/opulo-inc/leash). There's an example script in `./sw/extrude/extrude.py` that you can use as a starting point for your own application.
 
-The CAD for the extruder is intended for a replacement left nozzle. However, the extruder requires a slightly different build of firmware that forces Z homing to occur at a different position, because otherwise the paste extruder will collide with `front-left-leg`. To prevent the extra step of flashing new firmware, the design is mirrored and intended mainly to be used as a replacement *left* nozzle. If exporting the 3D models yourself, be sure to mirror `extruder-base` and `cartridge-clamp` in your slicer before printing. All other models can be used normally.
+The source CAD for the extruder is designed as a replacement left nozzle. However, the extruder requires a slightly different build of firmware that forces Z homing to occur at a different position, because otherwise the paste extruder will collide with `front-left-leg`. To prevent the extra step of flashing new firmware, the design is mirrored and intended mainly to be used as a replacement *right* nozzle (opposite from the images and YouTube video about this toolhead). If exporting the 3D models yourself, be sure to mirror `extruder-base` and `cartridge-clamp` in your slicer before printing. All other models can be used normally.
 
 ## Parts
 
