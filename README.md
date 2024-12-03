@@ -28,7 +28,8 @@ The source CAD for the extruder is designed as a replacement left nozzle. Howeve
 ## Install
 
 Installation and setup instructions can be found in this video:
-STILL IN PROGRESS
+
+[![](https://img.youtube.com/vi/N_p62_QUoKI/0.jpg)](https://youtu.be/N_p62_QUoKI)
 
 ## Help
 
