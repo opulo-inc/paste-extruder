@@ -90,6 +90,38 @@
       "notes": ""
     },
     {
+      "name": "pasting-nozzle-20GA",
+      "quantity": 5,
+      "type": "mcad",
+      "optional": true,
+      "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
+      "notes": ""
+    },
+    {
+      "name": "pasting-nozzle-22GA",
+      "quantity": 5,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
+      "notes": ""
+    },
+    {
+      "name": "pasting-nozzle-23GA",
+      "quantity": 5,
+      "type": "mcad",
+      "optional": true,
+      "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
+      "notes": ""
+    },
+    {
+      "name": "pasting-nozzle-25GA",
+      "quantity": 5,
+      "type": "mcad",
+      "optional": true,
+      "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
+      "notes": ""
+    },
+    {
       "name": "aluminum-shim",
       "quantity": 3,
       "type": "mcad",
