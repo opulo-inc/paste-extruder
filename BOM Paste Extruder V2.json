@@ -1,0 +1,155 @@
+{
+  "name": "Paste Extruder V2",
+  "parts": [
+    {
+      "name": "toolhead-stepper-mount",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://github.com/opulo-inc/paste-extruder",
+      "notes": ""
+    },
+    {
+      "name": "auger-toolhead-mount",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://github.com/opulo-inc/paste-extruder",
+      "notes": ""
+    },
+    {
+      "name": "auger-clamp",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://github.com/opulo-inc/paste-extruder",
+      "notes": ""
+    },
+    {
+      "name": "air-assist-container",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://github.com/opulo-inc/paste-extruder",
+      "notes": ""
+    },
+    {
+      "name": "air-assist-lid",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://github.com/opulo-inc/paste-extruder",
+      "notes": ""
+    },
+    {
+      "name": "16-pitch-auger",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://dosieren.de/en/products/consumables/disposable-feed-screw/504791/disposable-feed-screw",
+      "notes": ""
+    },
+    {
+      "name": "solenoid-valve",
+      "quantity": 1,
+      "type": "ecad",
+      "optional": false,
+      "source": "https://www.opulo.io/products/lumenpnp-control-box?_pos=1&_psq=control&_psid=59c80b9cf&_ss=e",
+      "notes": ""
+    },
+    {
+      "name": "vacuum-pump",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.opulo.io/products/lumenpnp-control-box?_pos=1&_psq=control&_psid=59c80b9cf&_ss=e",
+      "notes": "FDM PLA"
+    },
+    {
+      "name": "soft-pvc-tubing-6x4-red",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.opulo.io/products/lumenpnp-control-box?_pos=1&_psq=control&_psid=59c80b9cf&_ss=e",
+      "notes": ""
+    },
+    {
+      "name": "right-angle-air-fitting-4-6mm",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.alibaba.com/product-detail/Ready-to-Ship-HKQD-Brand-PU_1601709932828.html?chatToken=U1ZkdVJIVkhVRXB3VVd0MVF6QnFTSEJEV21jNEt6SmtiMnBMZWprNGIxVlNlRGRFYm05WmJXa3JlRzlZU2xoNFZVSjRSV0Y2V0dkTVMyWm1Mell4UTJJclNFeFVaRlkwUW5SelVITnZOWFJyU0hRMU1DdDBlVWN2YW1Ka1RIVjZZM0ZCVVRWclJ6QmtObGRCWTNKdVVHRmtjbmg1Tml0TmFUUk9WRGhKZWpkUk1uWXpVbWRXY25veWNHUkJWV2d6TlRaTE9ERkhNWEZaVEZjNE4yeHZZbm96Y25CUVZraG1jMFo1VG5aNE5HaHNOV1ZVUXpCTFdGUm5TVTRyUW5kViZ2ZXJzaW9uPTIuMC4w&encryptTargetLoginId=8pctgRBMALMYj4ZRsMF4oUjBKh0XH0sh6wdkfYSa%2Bs4%3D",
+      "notes": ""
+    },
+    {
+      "name": "luerlock-extender",
+      "quantity": 1,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.amazon.com/dp/B0GLHCSWJJ",
+      "notes": ""
+    },
+    {
+      "name": "aluminum-shim",
+      "quantity": 3,
+      "type": "mcad",
+      "optional": false,
+      "source": "https://www.amazon.com/dp/B0CM6S6DJF",
+      "notes": ""
+    },
+    {
+      "name": "ISO4762 Screw M2.5",
+      "quantity": 4,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.mcmaster.com/90128A183/",
+      "notes": "",
+      "render": ""
+    },
+    {
+      "name": "M3x12mm-self-tapping-button-head",
+      "quantity": 14,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.aliexpress.us/item/3256803118644196.html",
+      "notes": "",
+      "render": ""
+    },
+    {
+      "name": "ISO4017 Button Head Screw M3x10",
+      "quantity": 2,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.mcmaster.com/91239A115/",
+      "notes": "",
+      "render": ""
+    },
+    {
+      "name": "DIN562 Nut M3",
+      "quantity": 3,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.mcmaster.com/97259A101/",
+      "notes": "Square nut",
+      "render": "https://cdn.shopify.com/s/files/1/0570/4256/7355/files/M3-square-nut.png?v=1696266746"
+    },
+    {
+      "name": "M3x18mm-button-head",
+      "quantity": 1,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.mcmaster.com/91239A121/",
+      "notes": "",
+      "render": ""
+    },
+    {
+      "name": "rubber-band",
+      "quantity": 4,
+      "type": "misc",
+      "optional": false,
+      "source": "https://www.uline.com/Product/Detail/S-15809/Desk-Supplies/33-Latex-Free-Rubber-Bands-3-1-2-x-1-8",
+      "notes": "It's best to use silicone rubber bands that do not dry out.",
+      "render": "https://img.uline.com/is/image/uline/S-15809?$Small$"
+    }
+  ]
+}
