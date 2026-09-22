@@ -91,7 +91,7 @@
     },
     {
       "name": "pasting-nozzle-20GA",
-      "quantity": 5,
+      "quantity": 6,
       "type": "mcad",
       "optional": true,
       "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
@@ -99,7 +99,7 @@
     },
     {
       "name": "pasting-nozzle-22GA",
-      "quantity": 5,
+      "quantity": 12,
       "type": "mcad",
       "optional": false,
       "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
@@ -107,15 +107,7 @@
     },
     {
       "name": "pasting-nozzle-23GA",
-      "quantity": 5,
-      "type": "mcad",
-      "optional": true,
-      "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
-      "notes": ""
-    },
-    {
-      "name": "pasting-nozzle-25GA",
-      "quantity": 5,
+      "quantity": 6,
       "type": "mcad",
       "optional": true,
       "source": "https://www.alibaba.com/product-detail/14g-27g-Full-PP-TT-Tapered_1601817092499.html?spm=a2756.order-detail-ta-ta-b.0.0.4dc0f19cV4wjmB",
@@ -131,7 +123,7 @@
     },
     {
       "name": "ISO4762 Screw M2.5",
-      "quantity": 4,
+      "quantity": 5,
       "type": "misc",
       "optional": false,
       "source": "https://www.mcmaster.com/90128A183/",
@@ -149,7 +141,7 @@
     },
     {
       "name": "ISO4017 Button Head Screw M3x10",
-      "quantity": 2,
+      "quantity": 3,
       "type": "misc",
       "optional": false,
       "source": "https://www.mcmaster.com/91239A115/",
@@ -158,7 +150,7 @@
     },
     {
       "name": "DIN562 Nut M3",
-      "quantity": 3,
+      "quantity": 4,
       "type": "misc",
       "optional": false,
       "source": "https://www.mcmaster.com/97259A101/",
